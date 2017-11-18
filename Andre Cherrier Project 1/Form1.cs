@@ -75,10 +75,6 @@ namespace Andre_Cherrier_Project_1
             }
         }
 
-        public void tryAgain(Button reset)
-        {
-
-        }
         public void testWinner()
         {
             //winning by rows
@@ -100,9 +96,7 @@ namespace Andre_Cherrier_Project_1
                 {
                     winnerLabel.Text = "Player 2 Wins!";
                 }
-
             }
-
             else if (twoOne.Text == twoTwo.Text && twoTwo.Text == twoThree.Text && twoThree.Enabled == false) //row two winner
             {
                 if (xButton.Checked == true && player % 2 == 0)
@@ -143,7 +137,6 @@ namespace Andre_Cherrier_Project_1
                 }
 
             }
-
             //winning by columns
             else if (oneOne.Text == twoOne.Text && twoOne.Text == threeOne.Text && threeOne.Enabled == false) //column one winner
             {
@@ -253,16 +246,6 @@ namespace Andre_Cherrier_Project_1
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void name_Click(object sender, EventArgs e)
         {
             //changing Label to name's Tic Tac Toe Game
@@ -285,15 +268,6 @@ namespace Andre_Cherrier_Project_1
             }
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void gameName_Click(object sender, EventArgs e)
-        {
-
-        }
         //The nine buttons calling the method buttonPress
         private void button1_Click(object sender, EventArgs e)
         {
@@ -338,16 +312,6 @@ namespace Andre_Cherrier_Project_1
         private void threeThree_Click(object sender, EventArgs e)
         {
             buttonPress(threeThree);
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click_1(object sender, EventArgs e)
-        {
-
         }
 
         private void xButton_CheckedChanged(object sender, EventArgs e)

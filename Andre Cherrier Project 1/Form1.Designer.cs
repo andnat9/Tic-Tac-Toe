@@ -80,7 +80,6 @@
             this.gameName.Name = "gameName";
             this.gameName.Size = new System.Drawing.Size(0, 24);
             this.gameName.TabIndex = 1;
-            this.gameName.Click += new System.EventHandler(this.gameName_Click);
             // 
             // nameBox
             // 
@@ -88,7 +87,6 @@
             this.nameBox.Name = "nameBox";
             this.nameBox.Size = new System.Drawing.Size(112, 20);
             this.nameBox.TabIndex = 2;
-            this.nameBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // ticTacBox
             // 
@@ -109,7 +107,6 @@
             this.ticTacBox.TabIndex = 3;
             this.ticTacBox.TabStop = false;
             this.ticTacBox.Text = "Player 1 goes first.";
-            this.ticTacBox.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // winnerLabel
             // 
@@ -263,7 +260,6 @@
             this.playerOneScore.Size = new System.Drawing.Size(190, 27);
             this.playerOneScore.TabIndex = 15;
             this.playerOneScore.Text = "Player 1 Score: 0";
-            this.playerOneScore.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -272,7 +268,6 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(0, 13);
             this.label2.TabIndex = 16;
-            this.label2.Click += new System.EventHandler(this.label2_Click_1);
             // 
             // playerTwoScore
             // 
